@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Basic Contact Form</title>
+    <link href="http://fonts.googleapis.com/css?family=Nunito:400,300" rel="stylesheet" type="text/css">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+
+        <form action="contact.php" method="post" id="form_contact">
+
+            <div id="form_contact_message"></div>
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
+
+            <button type="submit" id="form_contact_submit">Send Message</button>
+
+        </form>
+
+    </div>
+    <script src="contact.js"></script>
+</body>
+</html>

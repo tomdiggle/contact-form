@@ -1,0 +1,65 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#form_contact label {
+    display: block;
+    margin-bottom: .4em;
+}
+
+#form_contact input[type="text"],
+#form_contact input[type="password"],
+#form_contact input[type="date"],
+#form_contact input[type="datetime"],
+#form_contact input[type="email"],
+#form_contact input[type="number"],
+#form_contact input[type="search"],
+#form_contact input[type="tel"],
+#form_contact input[type="time"],
+#form_contact input[type="url"],
+#form_contact textarea,
+#form_contact select {
+    margin: 0 0 1em 0;
+    padding: .4em;
+    font-size: 1em;
+    height: auto;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+#form_contact textarea {
+    height: 120px;
+}
+
+button {
+    padding: .6em;
+    background: #e8e8e8;
+    border: none;
+    width: 100%;
+    font-size: 1em;
+    border-radius: 4px;
+    -webkit-transition: background .3ms ease-in-out 0;
+    -moz-transition: background .3ms ease-in-out 0;
+    -o-transition: background .3ms ease-in-out 0;
+    transition: background .3ms ease-in-out 0;
+}
+
+button:hover,
+button:active {
+    background: #dcdcdc;
+}
+
+#form_contact_message {
+    text-align: center;
+}
+
+#form_contact_message .error {
+    color: #ff1919;
+}
+
+#form_contact_message .success {
+    color: #198c19;
+}
